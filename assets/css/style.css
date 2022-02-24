@@ -659,7 +659,7 @@ section {
   border-bottom: 3px solid #47b2e4;
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow:  0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
