@@ -206,50 +206,50 @@
 
       </div>
     </section><!-- End Cta Section -->
-    <br><br>
-<!-- counter section -->
-    <div class="container ms-auto me-auto mt-5">
-      <div class="counter-up">
-        <div class="content">
-          <div class="row">
-            <div class="col-lg-3">
-          <div class="box">
-            <div class="icon ic"><i class="fas fa-gift"></i></div>
-            <div class="counter ">508</div>
-            <div class="text "> <span style="color: crimson;">P</span>rojects Done</div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="box">
-            <div class="icon ic "><i class="fa fa-heart"></i></div>
-            <div class="counter ">436</div>
-            <div class="text"><span style="color: crimson;">H</span>appy Clients</div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="box">
-            <div class="icon ic "><i class="fa fa-award"></i></div>
-            <div class="counter ">120</div>
-            <div class="text "><span style="color: crimson;">A</span>wards recieve</div>
-          </div>
-        </div>
-         <div class="col-lg-3">
-          <div class="box">
-            <div class="icon ic "><i class="fab fa-bandcamp"></i></div>
-            <div class="counter ">150</div>
-            <div class="text"><span style="color: crimson;">N</span>ew Projects </div>
-          </div>
-          </div>
-        </div>  
-        </div>
-      </div>
-      </div>
-      </div>  
-      </div>
-      <!-- end counter section -->
-      <br><br>
-
     
+	   <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+   <scr
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -401,6 +401,43 @@
       });
   });
   </script>
+
+
+<script>
+  (function() {
+  "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+
+
+  
+  
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+})()
+</script>
+
 </body>
 
 </html>
