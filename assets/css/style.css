@@ -750,7 +750,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: #0205a1;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -758,7 +758,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #3f43fd;
+  background: #47b2e4;
 }
 @-webkit-keyframes animate-loading {
   0% {
