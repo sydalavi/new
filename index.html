@@ -22,38 +22,40 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+
 </head>
 
 <body>
 
-    <nav class=" nvbrclr navbar  navbar-expand-lg fixed-top navbar-scroll   navbar-light ">
-      <div class="container-fluid">
-        <a class="navbar-brand text-danger" href="#"> <span style="font-size: 24px; font-weight: 600;">Portfo</span><span style="color:crimson; font-size:  25px; font-weight: 700;">lio.</span> </a>
-        <button class="navbar-toggler cn1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto me-5 ">
-            <li class="nav-item clr1">
-              <a class="nav-link active ms-3 " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3 clr2" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3 clr2" href="#" tabindex="-1" aria-disabled="true">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3 clr2" href="#">Products</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link clr2" href="#">Design</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-     
-    </nav>
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1><span style="text-decoration: none;">Portfo</span><span style="color: crimson; text-decoration: none;">lio</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+
+         
+
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+         
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
  <section id="hero">
