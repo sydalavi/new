@@ -866,9 +866,6 @@ margin-left:25px ;
 .ic{
   text-align: center;
 }
-ul li a{
-  color: white !important;
-}
 ul li a:hover{
   color: crimson !important;
 }
@@ -917,9 +914,7 @@ ul li a:hover{
 }
 
 
-.nav-item a{
-  color: black !important;
-}
+
 .cn1{
   background-color: white !important;
   border:none;
