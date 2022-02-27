@@ -635,11 +635,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #47b2e4;
+  background: #ef6603;
 }
 .cta .cta-btn:hover {
   background: #fff;
-  color: #47b2e4;
+  color: #ef6603;
 }
 @media (max-width: 1024px) {
   .cta {
