@@ -1227,7 +1227,7 @@ margin-left:25px ;
 
   .mobile-nav-toggle {
     display: block !important;
-    color: var(--color-secondary);
+    color: #0657f0;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
