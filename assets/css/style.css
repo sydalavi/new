@@ -1227,7 +1227,7 @@ margin-left:25px ;
 
   .mobile-nav-toggle {
     display: block !important;
-    color: #0657f0;
+    color: crimson;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1238,7 +1238,7 @@ margin-left:25px ;
     right: 20px;
   }
   .mobile-nav-toggle.bi-x {
-    color: #0657f0;
+    color: crimson;
   }
 
   .mobile-nav-active {
