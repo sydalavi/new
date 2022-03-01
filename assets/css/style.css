@@ -1014,11 +1014,11 @@ margin-left:25px ;
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+
   font-family: var(--font-secondary);
 }
 .header .logo h1 span {
-  color: var(--color-primary);
+  
   font-weight: 500;
 }
 .header .btn-getstarted, .header .btn-getstarted:focus {
