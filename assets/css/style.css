@@ -19,10 +19,10 @@ a:hover {
 }
 .n1{
   font-size: 28px  !important;
-    font-weight: 700;
-  color: crimson;
+  font-weight: 700;
+  color: crimson !important;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
 h2, h3, h4, h5, h6 {
   font-family: "open", sans-serif;
 }
