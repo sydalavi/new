@@ -17,8 +17,11 @@ a:hover {
   color: #73c5eb;
   text-decoration: none;
 }
+.n1{
+  font-size: 28px  !important;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: "open", sans-serif;
 }
 
