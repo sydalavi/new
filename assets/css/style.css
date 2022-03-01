@@ -1262,7 +1262,6 @@ margin-left:25px ;
 }
 .featured-services .service-item {
   transition: all ease-in-out 0.4s;
-  height: 100%;
   width: 100%;
 }
 .featured-services{
