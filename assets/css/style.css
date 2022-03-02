@@ -1096,7 +1096,7 @@ margin-left:25px ;
     transform: scaleX(0.7);
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: var(--color-primary);
+   
   }
   .navbar .dropdown a:hover:before, .navbar .dropdown:hover > a:before, .navbar .dropdown .active:before {
     visibility: hidden;
