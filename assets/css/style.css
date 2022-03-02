@@ -1233,12 +1233,12 @@ margin-left:25px ;
   .mobile-nav-toggle {
     display: block !important;
     color: white;
-    font-size: 38px;
+    font-size: 30px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    top: 13px;
+    top: 15px;
     z-index: 9999;
     right: 20px;
   }
