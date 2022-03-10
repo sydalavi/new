@@ -734,7 +734,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #3f43fd;
+  background: crimson;
   text-align: center;
   padding: 15px;
   font-weight: 600;
